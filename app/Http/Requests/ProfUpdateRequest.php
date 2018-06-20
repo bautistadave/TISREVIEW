@@ -24,9 +24,14 @@ class ProfUpdateRequest extends Request
     public function rules()
     {
         return [
-          'name' => 'required|alpha|max:50',
+            'name' => 'required|alpha|max:50',
           'surname' => 'required|alpha|max:50',
-          'phone' => 'required|numeric'
+          //'email' => 'required|email|unique:users',
+          'phone' => 'required|numeric',
+          //'password' => 'required|max:50',
+          'nameare_id' => 'required',
+          //'confirmar_contrasena' => 'required|same:password',
+            
         ];
     }
 }

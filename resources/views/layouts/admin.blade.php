@@ -46,7 +46,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" ; href="index.html">Inicio</a>
+            <a class="navbar-brand" ; href="/reviews">Inicio</a>
             {{-- <a class="navbar-brand" ; href="index.html">acerca de</a> --}}
 
 
@@ -82,7 +82,7 @@
                                                     class="fa arrow"></span></a>
                                         <ul class="nav nav-second-level">
                                             <li>
-                                                <a href="{!!URL::to('/usuario/create')!!}"><i class=''></i> Adminitrador</a>
+                                                <a href="{!!URL::to('/usuario/create')!!}"><i class=''></i> Administrador</a>
                                             </li>
                                             <li>
                                                 <a href="{!!URL::to('/auxiliar/create')!!}"><i class=''></i>
@@ -96,7 +96,7 @@
                                     </li>
                                 @endif
                                 <li>
-                                    <a href="#"><i class="fa fa-list-ol fa-fw"></i>Lista Usuario<span
+                                    <a href="#"><i class="fa fa-list-ol fa-fw"></i>Lista de Usuarios<span
                                                 class="fa arrow"></span></a>
                                     <ul class="nav nav-second-level">
                                         <li>
@@ -122,6 +122,7 @@
                             <li>
                                 <a href="{!!URL::to('/area')!!}"><i class='fa fa-list-ol fa-fw'></i> Areas</a>
                             </li>
+                    
                         </ul>
                     </li>
 
@@ -174,6 +175,9 @@
                             <li>
                                 <a href="{!!URL::to('/preview/reporte/profesional')!!}"><i class='fa fa-file-pdf-o'></i>
                                     Consultas</a>
+                            </li>
+                            <li>
+                                    <a href="{!!URL::to('/preview/reporte/proyecto')!!}"><i class='fa fa-file-pdf-o'></i> Consultas II</a>
                             </li>
                         </ul>
                     </li>

@@ -11,7 +11,7 @@ class Profesional extends Model
     protected $table="profesionals";
 
     protected $fillable = [
-        'name','surname','phone','invitado','namecarre_id','email','password','user_id'
+        'name','surname','phone','invitado','namecarre_id','email','password','user_id','nameare_id[]',
     ];
     public static function boot(){
         parent::boot();

@@ -24,13 +24,13 @@ class ProyCreateRequest extends Request
     public function rules()
     {
         return [
-            // 'titulo' => 'required',
-            // 'autor' => 'required',
-            // 'tutor' => 'required',
+             //'titulo' => 'required',
+           //  'autor' => 'required',
+             //'tutor_id' => 'required',
             // 'namemodal' => 'required',
-            // 'namecarre' => 'required',
-            // 'nameare' => 'required',
-            // 'path' => 'required',
+             //'namecarre' => 'required',
+             //'nameare' => 'required',
+             'path' => 'required',
             
 
         ];

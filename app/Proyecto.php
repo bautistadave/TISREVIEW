@@ -29,12 +29,25 @@ class Proyecto extends Model
             $project->project_number = Carbon::now()->timestamp;
         });
     }
+//prueba de busqueda
+public function scopeBuscar($query,$titulo)
+{
+  if (trim($titulo) !="")
+  {
+    $query->where(\DB::raw("CONCAT(titulo,' ')"),"LIKE","%$titulo%");
+  }
+
+}
+
 
     public function proyectoTribunales()
     {
         return $this->belongsToMany('App\Profesional', 'assignments');
     }
-
+    public function proyectoDetalle()
+    {
+        return $this->belongsToMany('App\Proyecto', 'assignments');
+    }
     public function setPathAttribute($path)
     {
         if (!empty($path)) {

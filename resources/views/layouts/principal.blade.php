@@ -33,11 +33,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer">
 		<h6>Informacion : </h6>
 		<p class="claim">El sistema realizara la asignacion de tribunales segun la area del proyecto</p>
-		<a href="cabacDevs@gmail.com">ecabacDevs@gmail.com</a>
+		<a href="http://cabacDevs@gmail.com">cabacDevs@gmail.com</a>
 		<div class="copyright">
-			<p> Template by  <a href="http://fcyt.umss.edu.bo">  FCYT</a></p>
-			<p> Template by  <a href="http://websis.umss.edu.bo">  WEBSIS</a></p>
-			<p> Template by  <a href="http://www.cs.umss.edu.bo">  CS</a></p>
+			<h6>Contactos:</h6>
+			<br>
+			<p>  <a href="http://fcyt.umss.edu.bo" target="_blank">  FCYT</a></p>
+			<p>   <a href="http://websis.umss.edu.bo" target="_blank">  WEBSIS</a></p>
+			<p>  <a href="http://www.cs.umss.edu.bo" target="_blank">  CS</a></p>
 
 		</div>
 	</div>

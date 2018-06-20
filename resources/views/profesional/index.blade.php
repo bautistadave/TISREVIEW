@@ -34,7 +34,7 @@
 
                 {!!link_to_route('profesional.edit', $title = 'Editar', $parameters = $profesional->id, $attributes = ['class'=>'btn btn-primary'])!!}
                 {!!Form::open(['route'=>['profesional.destroy', $profesional->id], 'method' => 'DELETE'])!!}
-                {!!Form::submit('Eliminar',['class'=>'btn btn-danger'])!!}
+                {{-- {!!Form::submit('Eliminar',['class'=>'btn btn-danger'])!!} --}}
                 {!!Form::close()!!}
             </td>
             </tbody>

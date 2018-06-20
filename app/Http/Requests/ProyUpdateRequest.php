@@ -24,13 +24,13 @@ class ProyUpdateRequest extends Request
     public function rules()
     {
         return [
-            // 'titulo' => 'required',
-            // 'autor' => 'required',
-            // 'tutor' => 'required',
-            // 'namemodal' => 'required',
-            // 'namecarre' => 'required',
-            // 'nameare' => 'required',
-            // 'path' => 'required',
+           // 'titulo' => 'required',
+           // 'autor' => 'required',
+            //'tutor_id' => 'required',
+           // 'namemodal' => 'required',
+           // 'namecarre' => 'required',
+           // 'nameare' => 'required',
+            'path' => 'required',
         ];
     }
 }

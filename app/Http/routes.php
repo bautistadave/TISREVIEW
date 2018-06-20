@@ -46,7 +46,10 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('cambiar/estado/proyecto/{proyecto}','ProyectoController@cambiarEstado');
     Route::get('reporte/profesional/{profesional}', 'ReporteController@getReportProfesional');
     Route::get('preview/reporte/profesional', 'ReporteController@profesionalReport');
-
+//reporte proyecto
+Route::resource('reporte2', 'Reporte2Controller');
+Route::get('reporte/proyecto/{proyecto}', 'Reporte2Controller@getReportProyecto');
+Route::get('preview/reporte/proyecto', 'Reporte2Controller@proyectoReport');
 
     Route::resource('profesional','ProfesionalController');
     //Rutas Para Auxiliar

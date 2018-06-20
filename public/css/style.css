@@ -63,7 +63,7 @@ label{
 .header-info {
 	float:right;
 	padding-top:4em;
-	width:35%;
+	width:25%;
 	margin-right: 2%;
 }
 .header-info h1 {
@@ -502,23 +502,23 @@ i.book {
 	color:#000;
 }
 .footer {
-	background:#f3f3f3;
-	padding:1em 3em;
+	background: #d0d3d4 ;
+	padding:1em 2em;
 }
 .footer h6 {
-	color:#6F6F6F;
+	color:#2c3e50 ;
 	font-size:1em;
 	font-weight:600;
 }
 p.claim {
-	color: #b0b0b0;
+	color: #2c3e50;
 	font-size: 0.95em;
 	font-weight: 400;
 	width: 35%;
 	margin: 10px 0;
 }
 .footer a {
-	color: #6F6F6F;
+	color:  #424949 ;
 	font-size: 0.95em;
 	text-decoration:none;
 	font-weight: 400;
@@ -530,7 +530,7 @@ p.claim {
 	margin-top:2em;
 }
 .copyright p {
-	color: #b0b0b0;
+	color:  #566573 ;
 	font-size: 1em;
 	font-weight: 400;
 }
@@ -1484,7 +1484,7 @@ font-weight: 700;
 		right: 1px;
 	}
 	.logo img {
-		width: 85%;
+		width: 70%;
 	}
 	.logo p {
 		font-size: 1.1em;

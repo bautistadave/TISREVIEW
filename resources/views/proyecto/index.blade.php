@@ -9,20 +9,22 @@
     @endif
     <table class="table">
         <thead>
-        <th>Numero</th>
+        {{-- <th>Numero</th> --}}
         <th width="25%">Titulo</th>
         <th>Autor</th>
         <th>Carrera</th>
+        <th>Area</th>
         <th>Estado</th>
         <th>Archivo</th>
         <th>Operacion</th>
         </thead>
         @foreach($proyectos as $proyecto)
             <tbody>
-            <td><span class="text-primary">{{$proyecto->project_number}}</span></td>
+            {{-- <td><span class="text-primary">{{$proyecto->project_number}}</span></td> --}}
             <td>{{$proyecto->titulo}}</td>
             <td>{{$proyecto->author}}</td>
             <td>{{$proyecto->namecarre}}</td>
+            <td>{{$proyecto->nameare}}</td>
             <td>
                 @if($proyecto->defended)
                     <strong class="text-success">CONCLUIDO</strong>

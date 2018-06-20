@@ -6,6 +6,7 @@
         <legend>Editar Auxiliar</legend>
         @include('auxiliar.forms.auxi')
         {!!Form::submit('Actualizar',['class'=>'btn btn-primary'])!!}
+        <a href="/axiliar">  <button type="button"class="btn btn-primary" href name="Close"> Cancelar</button></a>
         {!!Form::close()!!}
     </div>
 @endsection

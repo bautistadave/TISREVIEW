@@ -16,8 +16,8 @@ class FrontController extends Controller
         return view('contacto');
    }
 
-   public function reviews(){
-      $proyectos = Proyecto::Proyectos();
+   public function reviews(Request $request){
+      $proyectos = Proyecto::all();
         return view('reviews', compact('proyectos'));
    }
 
